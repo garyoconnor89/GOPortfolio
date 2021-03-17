@@ -484,15 +484,16 @@ CONTACT START
 }
 
 .contact-title p {
-  color: var(--clr-primary-8);
+  color: var(--clr-grey-1);
 }
 
 .form-control {
   flex: 1 1 auto;
-  color: var(--clr-grey-5);
+  color: var(--clr-grey-9);
   margin: 1rem 1rem;
   padding: 0.5rem;
   display: flex;
+  border-radius: 5px;
 }
 
 .content-box {
@@ -506,8 +507,14 @@ CONTACT START
 
 .contact-btn {
   width: 10%;
-  background: var(--clr-grey-6);
+  background: var(--clr-primary-5);
   margin: 1rem;
+}
+
+.contact-form {
+  background: var(--clr-primary-7);
+  border-radius: 15px;
+  padding: 20px;
 }
 
 /* 
