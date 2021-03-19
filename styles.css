@@ -166,7 +166,7 @@ p {
   max-width: 1170px;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 800px) {
   .section-center {
     width: 95vw;
   }
@@ -432,7 +432,7 @@ ABOUT END
   transform: scale(1.02);
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
   .project-center {
     display: inline-flex;
     justify-content: space-around;
