@@ -413,13 +413,23 @@ ABOUT END
 }
 
 .project-title {
-  background: var(--clr-primary-2);
+  background: "./images/news";
   border-radius: 10px;
   padding: 2rem;
+  font-size: 5vh;
+  color: var(--clr-grey-2);
+}
+
+.project-img {
+  border-radius: 10px;
 }
 
 .project-title:hover {
   transform: scale(1.15);
+}
+
+.project-link:hover {
+  transform: scale(1.02);
 }
 
 @media screen and (min-width: 1000px) {
@@ -440,6 +450,11 @@ ABOUT END
 GALLERY START
  =========
  */
+
+.youtube {
+  display: block;
+  margin: 0 auto;
+}
 
 .gallery-center {
   display: flex;
@@ -477,10 +492,10 @@ CONTACT START
  */
 
 .contact {
-  background: var(--clr-primary-5);
+  background: var(--clr-white);
 }
 .contact-title {
-  color: var(--clr-white);
+  color: var(--clr-grey-2);
 }
 
 .contact-title p {
